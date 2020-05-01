@@ -1,0 +1,10 @@
+<svg id="Picture" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <defs>
+        <style>.cls-1{fill:#f3482b;}.cls-2{fill:#fafaff;}.cls-3{fill:#e5e5f2;}</style>
+    </defs>
+
+    <title>ZoneONE Logo</title>
+    <path id="Background" class="cls-1" d="M50,0A50,50,0,0,0,10,80V50a40,40,0,0,1,80,0H80a30,30,0,0,0-60,0V90A50,50,0,1,0,50,0Z"/>
+    <path id="Inner" class="cls-3" d="M40,20A30,30,0,0,0,15,50H85A30,30,0,0,0,60,20Z"/>
+    <path id="Line" class="cls-2" d="M50,20A30,30,0,0,1,80,50H90a40,40,0,0,0-80,0V80A49.87,49.87,0,0,0,20,90V50A30,30,0,0,1,50,20Z"/>
+</svg>
