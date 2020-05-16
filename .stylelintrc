@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "rules": {
+    "indentation": [4],
+    "no-empty-source": null,
+    "declaration-empty-line-before": null,
+    "no-missing-end-of-source-newline": null,
+    "number-leading-zero": null,
+    "declaration-colon-newline-after": null,
+    "value-list-comma-newline-after": null
+  }
+}

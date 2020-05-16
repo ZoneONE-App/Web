@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.13",
+    "@material-ui/icons": "^4.9.1",
+    "@openfonts/fira-sans_latin": "^1.44.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -10,18 +13,27 @@
     "@types/node": "^12.12.37",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.7",
+    "d3-ease": "^1.0.6",
+    "easings": "^1.1.1",
+    "emotion": "^10.0.27",
+    "mapbox-gl": "^1.10.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-map-gl": "^5.2.5",
+    "react-motion": "^0.5.2",
     "react-redux": "^7.2.0",
     "react-scripts": "3.4.1",
     "redux": "^4.0.5",
+    "reselect": "^4.0.0",
+    "ress": "^2.0.4",
     "typescript": "^3.7.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:css": "stylelint './src/**/*.tsx'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,6 +51,11 @@
     ]
   },
   "devDependencies": {
-    "@types/react-redux": "^7.1.7"
+    "@types/d3-ease": "^1.0.9",
+    "@types/react-map-gl": "^5.2.3",
+    "@types/react-motion": "^0.0.29",
+    "@types/react-redux": "^7.1.7",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0"
   }
 }
